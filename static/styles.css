@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame-child {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: linear-gradient(90deg, #00d1ff, #00bfe9 25%, #00a9cf 50%, #0097b9 70.5%, #007d99);
+  width: 1920px;
+  height: 64px;
+  overflow: hidden;
+}
+.masuk-untuk-melanjutkan {
+  position: relative;
+  font-weight: 500;
+  z-index: 0;
+}
+.atau {
+  position: relative;
+  font-size: 48px;
+}
+.kaitkan-dengan-whatsapp {
+  position: absolute;
+  top: 24px;
+  left: calc(50% - 150px);
+}
+.kaitkan-dengan-whatsapp-wrapper {
+  width: 412px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  height: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.lanjutkan-dengan-google {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 145px);
+}
+.lanjutkan-dengan-tiktok {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 141px);
+}
+.atau-parent {
+  margin: 0 !important;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  right: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  z-index: 1;
+  font-size: 24px;
+}
+.login-container {
+  position: absolute;
+  height: 81.3%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 92px;
+}
+.frame-parent {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 48px;
+  color: #000;
+  font-family: Inter;
+}
+

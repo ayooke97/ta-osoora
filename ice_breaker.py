@@ -17,8 +17,8 @@ In October 2002, eBay acquired PayPal for $1.5 billion, and that same year, with
     """
 
     summary_template = """
-    Directions : Answer this question shortly without explanation and description based on {information} only.
-    What is his job positions?
+    Directions : Answer this question shortly without explanation and description based on {information} only in Indonesian.
+    apa posisi dia?
     If it is based on the {information} just answer it. If not, you can say "I don't know"
     """
 
