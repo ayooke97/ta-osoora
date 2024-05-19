@@ -2,8 +2,13 @@ from dotenv import load_dotenv
 from langchain.prompts.prompt import PromptTemplate
 from langchain_groq import ChatGroq
 from langchain.chains import LLMChain
+from langchain_community.document_loaders import PyPDFLoader
+
 
 if __name__ == "__main__":
+    loader = PyPDFLoader("example_data/layout-parser-paper.pdf")
+    pages = loader.load_and_split()
+    print(pages)
     load_dotenv()
 
     print("Hello LangChain")
